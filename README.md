@@ -87,6 +87,16 @@ employee-tracking/
 | Sanjay   | Town Hall → Avinashi Road   | 100     |
 | **Total**|                             | **500** |
 
+## ⚡ Quick Start (1-Click Run on Windows)
+
+Once prerequisites and `.env` are configured, you can start both the backend and frontend at the same time:
+- **Double click `start.bat`** in the project root directory.
+- It will open two console windows (one for backend on port 5000, one for frontend on port 3000).
+- Open **http://localhost:3000** in your browser!
+
+> 💡 **Why did `localhost:300 Refused to connect` happen?**
+> When you close Antigravity / your IDE or shut down your computer, the Node.js background processes terminate. Localhost is only accessible while the local servers (`node server.js` and `npm run dev`) are running on your machine. Simply run `start.bat` (or use the terminal commands below) whenever you want to reopen the site!
+
 ---
 
 ## ⚙️ Installation — Step-by-Step (Windows)
